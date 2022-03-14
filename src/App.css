@@ -1,0 +1,95 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+  align-items: center;
+  position:absolute;
+
+}
+.container{
+  position:relative;
+  
+}
+.seperatorContainer{
+  background-color:#ffffff;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin: 16px;
+  padding: 20px;
+  color: #000000;
+}
+.messageContainer{
+  background-color:#000000;
+  border:0;
+  border-radius: 25px;
+  margin: 16px;
+  padding: 20px;
+  color: #ffffff;
+}
+.dataContainer {
+  background-color:#000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 250px;
+  border: 0;
+  border-radius: 25px;
+}
+
+.header {
+  color:#ffffff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.waveButton {
+  align: center;
+  font-size:20px;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 15px;
+  width:200px;
+  height:50px;
+  margin-left:25%;
+
+}
+.connectButton {
+  align: center;
+  font-size:20px;
+  cursor: pointer;
+  padding: 8px;
+  border: 0;
+  border-radius: 15px;
+  width:200px;
+  height:50px;
+
+}
+.waveButton:hover{
+  background-color:grey;
+}
+.input{
+  height:20px;
+  border-radius:15px;
+  border:0px solid black;
+  width:60%;
+  margin-top:16px;
+  
+  
+}
+.input[type="text"]{
+  padding:16px;
+  font-size: 20px;
+}
